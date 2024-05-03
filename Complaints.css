@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:url("all.png");
+    margin-top: -10px;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #85b5ec;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
